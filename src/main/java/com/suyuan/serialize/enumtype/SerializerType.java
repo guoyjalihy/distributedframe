@@ -4,13 +4,12 @@ public enum SerializerType {
 
     JAVA("DefaultJavaSerializer"),
     XML("XStreamSerializer"),
-    JSON("DefaultJavaSerializer"),
-    HESSIAN("DefaultJavaSerializer"),
-    THRIFT("DefaultJavaSerializer"),
-    PROTOSTUFF("DefaultJavaSerializer"),
-    AVRO("DefaultJavaSerializer");
+    JSON("JsonSerializer"),
+    HESSIAN("HessianSerializer"),
+    THRIFT("ThriftSerializer"),
+    PROTOSTUFF("ProtostuffSerializer");
 
-    private SerializerType(String type){
+    SerializerType(String type){
         this.type = type;
     }
     private String type;
