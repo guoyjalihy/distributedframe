@@ -1,6 +1,6 @@
-package client.rmi;
+package com.zhuyuan.rpc.client.rmi;
 
-import server.rmi.HelloServiceRMI;
+import com.zhuyuan.rpc.server.rmi.HelloServiceRMI;
 
 import java.rmi.Naming;
 

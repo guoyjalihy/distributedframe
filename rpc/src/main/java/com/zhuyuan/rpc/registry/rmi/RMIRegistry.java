@@ -1,7 +1,7 @@
-package registry.rmi;
+package com.zhuyuan.rpc.registry.rmi;
 
-import server.rmi.HelloServiceRMI;
-import server.rmi.HelloServiceRMIImpl;
+import com.zhuyuan.rpc.server.rmi.HelloServiceRMI;
+import com.zhuyuan.rpc.server.rmi.HelloServiceRMIImpl;
 
 import java.rmi.Naming;
 import java.rmi.registry.LocateRegistry;

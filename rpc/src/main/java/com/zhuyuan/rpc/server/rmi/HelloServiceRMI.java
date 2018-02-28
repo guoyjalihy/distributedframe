@@ -1,4 +1,4 @@
-package server.rmi;
+package com.zhuyuan.rpc.server.rmi;
 
 import java.rmi.Remote;
 import java.rmi.RemoteException;
